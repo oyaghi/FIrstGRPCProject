@@ -19,7 +19,7 @@ service TodoIt {
 	rpc UpdateToDo(UpdateToDoRequest) returns (UpdateToDoResponse){}
 
 	// Delete 
-	rpc DeleteToDO(DeleteToDoRequest) returns (DeleteToDoResponse){}
+	rpc DeleteToDo(DeleteToDoRequest) returns (DeleteToDoResponse){}
 }
 
 
